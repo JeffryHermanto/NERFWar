@@ -38,16 +38,6 @@ table, tr, td {
     width: 110px;
 }
 
-.kaki {
-    height: 50px;
-}
-
-.kaki p {
-    margin: 0 auto;
-    font-size: 0.8em;
-    color: white;
-}
-
 .box-shadow {
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
@@ -72,4 +62,27 @@ table, tr, td {
 .winner {
     color: green;
     text-shadow: 0 .25rem .75rem rgba(0, 0, 0, 3);
+}
+
+/* .kaki {
+    margin: 0;
+    height: 50px;
+}
+
+.kaki p {
+    margin: 0 auto;
+    font-size: 0.8em;
+    color: white;
+} */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 1em;
 }
