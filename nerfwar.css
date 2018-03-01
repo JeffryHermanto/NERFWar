@@ -1,0 +1,79 @@
+body {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.kepala {
+    height: 80px;
+}
+
+.container {
+    margin-bottom: -15px;
+}
+
+.gameArea {
+    margin-top: 1em;
+}
+
+.players {
+    color: white;
+}
+
+.scoreDisplay {
+    color: white;
+}
+
+table, tr, td {
+    padding-bottom: 0.65em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+
+.kolom1 {
+    border-right: 1px solid white;
+}
+
+.tombol {
+    width: 110px;
+}
+
+.kaki {
+    position: relative;
+    height: 50px;
+}
+
+.kaki p {
+    margin: 0 auto;
+    font-size: 0.8em;
+    color: white;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.tambahBiru {
+    background-color: blue;
+    color: white;
+}
+
+.tambahEmas {
+    background-color: gold;
+}
+
+#kolomAngka {
+    width: 6em;
+}
+
+#reset {
+    width: 200px;
+}
+
+.winner {
+    color: green;
+    text-shadow: 0 .25rem .75rem rgba(0, 0, 0, 3);
+}

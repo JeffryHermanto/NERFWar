@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Jeffry Hermanto">
+    <link rel="stylesheet" type="text/css" href="nerfwar.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>NERF War</title>
+
+    <!-- REPO GITHUB https://github.com/JeffryHermanto/NERFWar.git -->
+</head>
+<body>
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-dark bg-dark justify-content-between box-shadow kepala">
+        <div class="container">
+            <h1><img src="images/logo_nerf.png" height="80px"></h1>
+            <!-- <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Print Target</button> -->
+            <div class="form-inline my-2 my-lg-0">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Masukkan:</span>
+                    </div>
+                    <input type="number" class="form-control" placeholder="Angka" step="100" min="0" max="99999" id="kolomAngka">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- GAME AREA -->
+    <center class="gameArea">
+        <p style="color:white">Main sampai: <strong><span>0</span></strong></p>
+        <table>
+            <tr class="players">
+                <td class="kolom1"><h6>Pemain 1</h6></td>
+                <td><h6>Pemain 2</h6></td>
+            </tr>
+
+            <!-- SCORE DISPLAY -->
+            <tr class="scoreDisplay">
+                <td id="p1Display" class="kolom1"><h1>0</h1></td>
+                <td id="p2Display"><h1>0</h1></td>
+            </tr>
+
+            <!-- BUTTONS -->
+            <tr>
+                <td class="kolom1"><button id="p1yang1000" class="btn tombol tambahEmas">+ 1000</button></td>
+                <td><button id="p2yang1000" class="btn tombol tambahEmas">+ 1000</button></td>
+            </tr>
+            <tr>
+                <td class="kolom1"><button id="p1yang500" class="btn tombol tambahBiru">+ 500</button></td>
+                <td><button id="p2yang500" class="btn tombol tambahBiru">+ 500</button></td>
+            </tr>
+            <tr>
+                <td class="kolom1"><button id="p1yang400" class="btn tombol">+ 400</button></td>
+                <td><button id="p2yang400" class="btn tombol">+ 400</button></td>
+            </tr>
+            <tr>
+                <td class="kolom1"><button id="p1yang300" class="btn tombol tambahBiru">+ 300</button></td>
+                <td><button id="p2yang300" class="btn tombol tambahBiru">+ 300</button></td>
+            </tr>
+            <tr>
+                <td class="kolom1"><button id="p1yang200" class="btn tombol">+ 200</button></td>
+                <td><button id="p2yang200" class="btn tombol">+ 200</button></td>
+            </tr>
+            <tr>
+                <td class="kolom1"><button id="p1yang100" class="btn tombol tambahBiru">+ 100</button></td>
+                <td><button id="p2yang100" class="btn tombol tambahBiru">+ 100</button></td>
+            </tr>
+        </table>
+        <br>
+        <button id="reset" class="btn btn-danger tombol">Ulangi Permainan</button>
+    </center>
+    
+    <!-- FOOTER -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom box-shadow kaki">
+        <p>&#169; 2018 Jeffry Hermanto&nbsp;&nbsp;|&nbsp;&nbsp;<a href="assets/NERFTargetCircles.pdf" target="_blank"><i class="fas fa-print"></i> Cetak Kertas Target</a></p>
+    </nav> 
+
+    <!-- SCRIPT -->
+    <script type="text/javascript" src="nerfwar.js"></script>
+</body>
+</html>
