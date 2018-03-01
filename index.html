@@ -26,14 +26,14 @@
     <!-- NAV BAR -->
     <nav class="navbar navbar-dark bg-dark justify-content-between box-shadow">
         <div class="container">
-            <h1><img src="images/logo_nerf.png" height="80px"></h1>
+            <h1><img src="images/logo_nerf.png" height="60px"></h1>
             <!-- <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Print Target</button> -->
             <div class="form-inline my-2 my-lg-0">
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon1">Masukkan:</span>
+                        <span class="input-group-text" id="basic-addon1"><i class="fas fa-trophy"></i></span>
                     </div>
-                    <input type="number" class="form-control" placeholder="Angka" step="100" min="0" max="99999" id="kolomAngka">
+                    <input type="number" class="form-control" placeholder="Skor" step="100" min="0" max="99999" id="kolomAngka">
                 </div>
             </div>
         </div>
@@ -42,51 +42,58 @@
     <!-- GAME AREA -->
     <center class="gameArea">
         <p style="color:white">Main sampai: <strong><span>0</span></strong></p>
+
+        <div class="vl"></div>
+        
         <table>
+
+            <!-- MAIN SAMPAI -->
             <tr class="players">
-                <td class="kolom1"><h6>Pemain 1</h6></td>
-                <td><h6>Pemain 2</h6></td>
+                <td class="kolom1">Pemain 1</td>
+                <td class="kolom2">Pemain 2</td>
             </tr>
 
             <!-- SCORE DISPLAY -->
             <tr class="scoreDisplay">
                 <td id="p1Display" class="kolom1"><h1>0</h1></td>
-                <td id="p2Display"><h1>0</h1></td>
+                <td id="p2Display" class="kolom2"><h1>0</h1></td>
             </tr>
 
             <!-- BUTTONS -->
             <tr>
                 <td class="kolom1"><button id="p1yang1000" class="btn tombol tambahEmas">+ 1000</button></td>
-                <td><button id="p2yang1000" class="btn tombol tambahEmas">+ 1000</button></td>
+                <td class="kolom2"><button id="p2yang1000" class="btn tombol tambahEmas">+ 1000</button></td>
             </tr>
             <tr>
                 <td class="kolom1"><button id="p1yang500" class="btn tombol tambahBiru">+ 500</button></td>
-                <td><button id="p2yang500" class="btn tombol tambahBiru">+ 500</button></td>
+                <td class="kolom2"><button id="p2yang500" class="btn tombol tambahBiru">+ 500</button></td>
             </tr>
             <tr>
                 <td class="kolom1"><button id="p1yang400" class="btn tombol">+ 400</button></td>
-                <td><button id="p2yang400" class="btn tombol">+ 400</button></td>
+                <td class="kolom2"><button id="p2yang400" class="btn tombol">+ 400</button></td>
             </tr>
             <tr>
                 <td class="kolom1"><button id="p1yang300" class="btn tombol tambahBiru">+ 300</button></td>
-                <td><button id="p2yang300" class="btn tombol tambahBiru">+ 300</button></td>
+                <td class="kolom2"><button id="p2yang300" class="btn tombol tambahBiru">+ 300</button></td>
             </tr>
             <tr>
                 <td class="kolom1"><button id="p1yang200" class="btn tombol">+ 200</button></td>
-                <td><button id="p2yang200" class="btn tombol">+ 200</button></td>
+                <td class="kolom2"><button id="p2yang200" class="btn tombol">+ 200</button></td>
             </tr>
             <tr>
                 <td class="kolom1"><button id="p1yang100" class="btn tombol tambahBiru">+ 100</button></td>
-                <td><button id="p2yang100" class="btn tombol tambahBiru">+ 100</button></td>
+                <td class="kolom2"><button id="p2yang100" class="btn tombol tambahBiru">+ 100</button></td>
             </tr>
         </table>  
         <br>
+
+        <!-- RESET -->
         <button id="reset" class="btn btn-danger tombol">Ulangi Permainan</button>      
     </center>
     
     <!-- FOOTER -->
     <footer class="bg-dark box-shadow">
-        &#169; 2018 Jeffry Hermanto&nbsp;&nbsp;|&nbsp;&nbsp;<a href="assets/NERFTargetCircles.pdf" target="_blank"><i class="fas fa-print"></i> Cetak Kertas Target</a>
+        &#169; 2018 Jeffry Hermanto&nbsp;&nbsp;&#183;&nbsp;&nbsp;<a href="assets/NERFTargetCircles.pdf" target="_blank"><i class="fas fa-print"></i> Cetak Kertas Target</a>
     </footer> 
 
     <!-- SCRIPT -->

@@ -6,8 +6,20 @@ body {
     background-size: cover; 
 }
 
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
 .container {
     margin-bottom: -15px;
+}
+
+.vl {
+    border-left: 1px solid white;
+    height: 390px;
+    position: absolute;
+    left: 50%;
+    top: 130px;
 }
 
 .gameArea {
@@ -16,6 +28,7 @@ body {
 
 .players {
     color: white;
+    font-size: 0.8em;
 }
 
 .scoreDisplay {
@@ -23,23 +36,20 @@ body {
 }
 
 table, tr, td {
-    padding-bottom: 0.65em;
-    padding-left: 2.5em;
-    padding-right: 2.5em;
     text-align: center;
-    /* border: 1px solid white; */
-}
-
-.kolom1 {
-    border-right: 1px solid white;
+    padding-bottom: 0.7em;
 }
 
 .tombol {
-    width: 110px;
+    width: 130px;;
 }
 
-.box-shadow {
-    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+.kolom1 {
+    padding-right: 1.5em;
+}
+
+.kolom2 {
+    padding-left: 1.5em;
 }
 
 .tambahBiru {
@@ -65,13 +75,10 @@ table, tr, td {
 }
 
 footer {
-    /* position: fixed; */
-    /* left: 0; */
-    /* bottom: 0%; */
-    /* width: 100%; */
     color: white;
     text-align: center;
     font-size: 0.8em;
-    padding: 1.5em;
-    margin-top: 2.5em;
+    height: 100px;
+    padding-top: 1.5em;
+    margin-top: 2em;
 }
