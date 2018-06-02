@@ -4,7 +4,7 @@
 
 **[Visit Project](https://jeffryhermanto.github.io/NERFWar/)**
 
-![NERFWar]()
+![NERFWar](http://jhproject.id/img/portfolio/NERFWar.png)
 
 #### Jeffry Hermanto _jeffryhermanto@gmail.com_
 
